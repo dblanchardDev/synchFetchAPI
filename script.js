@@ -292,7 +292,7 @@ class URL { // eslint-disable-line no-redeclare
 
 		// Parse the URLs
 		this._parseURL(rebase ? base : url);
-		if (rebase && url !== "") this._rebase();
+		if (rebase && url !== "") this._rebase(url);
 	}
 
 
