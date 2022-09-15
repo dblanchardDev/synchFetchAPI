@@ -195,7 +195,7 @@ class URLSearchParams extends _StringMap { // eslint-disable-line no-redeclare
 				const pairs = init.split("&");
 				for (let p of pairs) {
 					let [key, value=""] = p.split("=");
-					this.set(key, value);
+					this.set(key, decodeURIComponent(value));
 				}
 			}
 		}
@@ -216,7 +216,7 @@ class URLSearchParams extends _StringMap { // eslint-disable-line no-redeclare
 	toString() {
 		let parts = [];
 		for (let [n, v] of this.entries()) {
-			parts.push(`${n}=${v}`);
+			parts.push(`${n}=${encodeURIComponent(v)}`);
 		}
 		return parts.join("&");
 	}
