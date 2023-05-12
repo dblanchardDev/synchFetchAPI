@@ -8,8 +8,6 @@ Author: David Blanchard
 
 License: [MIT License](LICENSE)
 
-Notice: This is not an official Esri or Esri Canada product, no support is offered. We make no representations or warranties of any kind, about the completeness, accuracy, reliability, suitability or availability with respect to this tool.
-
 ## Components
 
 - [Fetch](#fetch-function): Fetch content from the web.
@@ -509,3 +507,15 @@ usp.set("omega", "zero");
 usp.delete("beta");
 let query = usp.toString(); //query => "alpha=one&omega=zero"
 ```
+
+---
+
+## Licensing
+
+Copyright 2022 Esri Canada - All Rights Reserved
+
+A copy of the license is available in the repository's [LICENSE](../master/LICENSE) file.
+
+## Support
+
+This code is distributed as is and is not supported in any way by Esri Canada, Esri Inc. or any other Esri distributor.
