@@ -8,6 +8,8 @@ Author: David Blanchard
 
 License: [MIT License](LICENSE)
 
+Notice: This is not an official Esri or Esri Canada product, no support is offered. We make no representations or warranties of any kind, about the completeness, accuracy, reliability, suitability or availability with respect to this tool.
+
 ## Components
 
 - [Fetch](#fetch-function): Fetch content from the web.
@@ -16,6 +18,12 @@ License: [MIT License](LICENSE)
 - [Headers](#headers-class): Set of headers used for both requests and responses.
 - [URL](#url-class): Construct and manipulate URLs.
 - [URLSearchParams](#urlsearchparams-class): Construct and manipulate the search parameters component of a URL.
+
+---
+
+## How to Use
+
+Simply copy the content of the _script.js_ file into the file you need access to the fetch API. For example, in ArcGIS Survey 123, copy into your JavaScript code in the _Scripts_ tab of ArcGIS Survey 123 Connect.
 
 ---
 
